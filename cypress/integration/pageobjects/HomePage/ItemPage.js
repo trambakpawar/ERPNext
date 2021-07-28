@@ -12,6 +12,7 @@ const actionbutton = '.container > .row > .col > .standard-actions > .actions-bt
 const deletebutton = ".flex.col.page-actions.justify-content-end > div.standard-actions.flex > div.actions-btn-group.show > ul > li:nth-child(6) > a > span"
 const confirmdelete = ".modal-footer > .standard-actions > .btn-primary"
 const closebutton = " .modal-actions > .btn-modal-close > .icon"
+
 const itemdata = require("../../../fixtures/UserData/itemdata.json")
 export class itemobject {
     itempage() {
