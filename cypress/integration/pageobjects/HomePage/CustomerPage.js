@@ -41,6 +41,7 @@ export class customer {
         cy.get(homepage).click()
         cy.get(customerpage).click()
     }
+
     addcustomer() {
         cy.get(addbutton).click()
         cy.get(fullname).type(custdata.fullname)
@@ -56,6 +57,7 @@ export class customer {
         cy.get(country).type(custdata.country)
         cy.get(savebutton).click()
     }
+
     deletecustomer() {
         cy.contains('.list-row', custdata.fullname).find('input').eq(0).check()
         cy.wait(1000)
@@ -97,6 +99,7 @@ export class customer {
         cy.get(tag).type(custdata.tag)
         cy.get(addbutton2).click()
     }
+
     printdata() {
         cy.contains('.list-row', custdata.fullname).find('input').eq(0).check()
         cy.wait(1000)

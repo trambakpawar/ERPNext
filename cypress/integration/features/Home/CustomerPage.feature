@@ -1,6 +1,5 @@
 Feature: Check the Customer Page
 
-
 Scenario: Add the customer to database
   Given I login to system and click on customer menu
   When I fill all data to create customer
@@ -22,7 +21,7 @@ Scenario: Add tags to the customer
   When I select the customer and add the tags for customer
   Then Tags get added to customer
 
-@focus
+
 Scenario: Take print out the customer info
   Given I login to system and click on customer menu
   When I select the customer and print the customer info
