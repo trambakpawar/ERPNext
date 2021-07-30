@@ -1,4 +1,4 @@
-import { logobject } from "../../pageobjects/LoginPage"
+import { logobject } from "../../pageobjects/LoginPage/LoginPage"
 import { itemobject } from "../../pageobjects/HomePage/ItemPage"
 const itemdata = require("../../../fixtures/UserData/itemdata.json")
 const lp = new logobject()

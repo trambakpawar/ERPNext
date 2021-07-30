@@ -7,7 +7,7 @@
     "cypress-cucumber-preprocessor": "^4.1.4"
   },
   "devDependencies": {
-    "cypress": "^8.0.0",
+    "cypress": "^8.1.0",
     "multiple-cucumber-html-reporter": "^1.18.0"
   },
   "scripts": {

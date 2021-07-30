@@ -1,4 +1,4 @@
-import { logobject } from "../../pageobjects/LoginPage"
+import { logobject } from "../../pageobjects/LoginPage/LoginPage"
 import { supplier } from "../../pageobjects/HomePage/SupplierPage"
 const supplydata = require("../../../fixtures/UserData/Supplier.json")
 

@@ -1,4 +1,4 @@
-import { logobject } from "../pageobjects/LoginPage"
+import { logobject } from "../../pageobjects/LoginPage/LoginPage"
 const lp = new logobject()
 
 Given(/^I visit the url and click on login$/, function () {

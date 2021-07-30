@@ -3,7 +3,7 @@ const login = "#navbarSupportedContent > ul.ml-auto.navbar-nav > li.nav-item > a
 const email = "#login_email"
 const password = "#login_password"
 const loginbutton = "#page-login > div > main > div.page_content > div > section.for-login > div.login-content.page-card > form > div.page-card-actions > button"
-const logindata = require("../../fixtures/UserData/LoginInfo.json")
+const logindata = require("../../../fixtures/UserData/LoginInfo.json")
 
 export class logobject {
 
