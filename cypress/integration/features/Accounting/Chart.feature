@@ -11,7 +11,7 @@ Scenario: Create the child account
   When I click on chart of account tab and create the child account
   Then Child account get displayed on webpage
 
-@focus
+
 Scenario: Delete the account from chart
  Given I login into system and go to accounting page
   When I click on chart of account tab and delete the account
