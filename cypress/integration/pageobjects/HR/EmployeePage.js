@@ -35,5 +35,8 @@ export class employee {
         cy.get(doj).type(hrdata.doj)
         cy.get(click).click()
         cy.get(savebutton).click()
+
     }
+
+    add() { }
 }
